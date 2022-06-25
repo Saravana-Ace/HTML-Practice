@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset = "utf-8">
+    <meta name = "description" content = "Using tables in HTML">
+    <title>Tables in HTML</title>
+  </head>
+
+  <body style = "background-color: pink;">
+      <table>
+        <!--
+        <style>
+            table,
+            th,
+            td {
+              padding: 10px;
+              border: 1px solid black;
+              border-collapse: collapse;
+            }
+          </style>
+        -->
+          <thead>
+            <!-- The caption tag is the header of the table -->
+            <caption><h2>List of Numbers</h2></caption>
+            <!-- Table row tag <tr> -->
+            <tr>
+                <!-- Table header tag is <th> -->
+                <th>num1</th>
+                <th>num2</th>
+                <th>num3</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+                <!-- Table data tag is <td> -->
+                <td colspan = "1">One</td>
+                <td>Two</td>
+                <td>Three</td>
+                <td>Three and a half</td>
+            </tr>
+            
+            <tr>
+                <td>four</td>
+                <td>five</td>
+                <td>six</td>
+            </tr>
+        </tbody>
+      </table>
+  </body>
+</html>
